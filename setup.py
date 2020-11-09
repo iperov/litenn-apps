@@ -17,11 +17,11 @@ def scan_packages(path, prefix=None):
 
 setuptools.setup(
     name="litenn-apps",
-    version="0.1.0",
+    version="2020.11.9",
     author="iperov",
     author_email="lepersorium@gmail.com",
     description="",
-    install_requires=['numpy','litenn'],
+    install_requires=['numpy','litenn','opencv-python'],
     long_description="Ready to work ML models using LiteNN.",
     url="https://github.com/iperov/litenn-apps",
     packages=[*scan_packages('.')],
