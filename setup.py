@@ -17,7 +17,7 @@ def scan_packages(path, prefix=None):
 
 setuptools.setup(
     name="litenn-apps",
-    version="2020.11.83",
+    version="2020.11.84",
     author="iperov",
     author_email="lepersorium@gmail.com",
     description="",
