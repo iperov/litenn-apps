@@ -23,15 +23,24 @@
 
 # Recognition
 
-## Face
-
-### S3FD
 </td></tr>
-
 <tr><td colspan=2 align="center">
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iperov/litenn-apps/blob/master/litenn_apps/recognition/face/S3FD/S3FD_test.ipynb)
+## Face
 
+</td></tr>
+
+
+<tr><td colspan=1 align="center">
+
+### S3FD
+
+</td>
+<td colspan=1 align="center">
+ 
+Extracts bounding boxes of faces.
+ 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iperov/litenn-apps/blob/master/litenn_apps/recognition/face/S3FD/S3FD_test.ipynb)
 
 </td></tr>
 
