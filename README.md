@@ -30,7 +30,7 @@
 
 <tr><td colspan=2 align="center">
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iperov/litenn-apps/blob/master/recognition/face/S3FD/S3FD_test.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iperov/litenn-apps/blob/master/litenn_apps/recognition/face/S3FD/S3FD_test.ipynb)
 
 
 </td></tr>
