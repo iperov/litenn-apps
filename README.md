@@ -6,19 +6,7 @@
 
 ### Ready to work ML models using [LiteNN](https://github.com/iperov/litenn)
 
-
 </td></tr>
-<tr><td colspan=2 align="center">
-
-</td></tr>
-
-<tr><td colspan=2 align="center">
-
-<p align="center">
-</p>
-
-</td></tr>
-
 <tr><td colspan=2 align="center">
 
 # Recognition
@@ -29,8 +17,6 @@
 ## Face
 
 </td></tr>
-
-
 <tr><td colspan=1 align="center">
 
 ### S3FD
