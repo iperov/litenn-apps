@@ -1,8 +1,29 @@
 import urllib.request
 import hashlib
+import cv2
+
+try:
+    import google.colab
+    # We are in colab
+    
+    from google.colab.patches import cv2_imshow as cv2_imshow_colab
+    
+    def cv2_imshow(wnd, img):
+        cv2_imshow_colab(img)
+        
+    def cv2_destroyWindow(wnd):
+        pass
+except:
+    cv2_imshow = cv2.imshow
+    cv2_destroyWindow = cv2.destroyWindow
+
 
 def download_file(url, filepath, progress_bar=True):
     f = None
+    
+    if progress_bar:
+        print(f'Downloading {url}')
+        
     try:
         f = open(filepath, 'wb')
         

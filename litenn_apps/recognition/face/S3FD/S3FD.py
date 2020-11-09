@@ -16,9 +16,9 @@ def S3FD_show_test():
     for l,t,r,b,c in faces:
         cv2.rectangle(img, (l,t), (r,b), (0,255,0) )
         
-    cv2.imshow("test", img)
+    lna.core.cv2_imshow("test", img)
     cv2.waitKey(0)
-    cv2.destroyWindow("test")
+    lna.core.cv2_destroyWindow("test")
     
 class S3FD:
     """
@@ -33,7 +33,7 @@ class S3FD:
         self.module.load(S3FD.model_path)
 
 
-    def extract (self, input_image, is_bgr=True, is_remove_intersects=False, min_face_size=40):
+    def extract (self, input_image, is_bgr=True, is_remove_intersects=False, min_face_size=20):
         """
         Extract faces rects
 
@@ -49,7 +49,7 @@ class S3FD:
          is_remove_intersects(False)
                         remove intersecting faces
 
-         min_face_size(40) minimum face size in pixels
+         min_face_size(20) minimum face size in pixels
 
         returns
 

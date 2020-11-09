@@ -17,14 +17,15 @@ def scan_packages(path, prefix=None):
 
 setuptools.setup(
     name="litenn-apps",
-    version="2020.11.9",
+    version="2020.11.83",
     author="iperov",
     author_email="lepersorium@gmail.com",
     description="",
     install_requires=['numpy','litenn','opencv-python'],
+    include_package_data=True,
     long_description="Ready to work ML models using LiteNN.",
     url="https://github.com/iperov/litenn-apps",
-    packages=[*scan_packages('.')],
+    packages=['.', *scan_packages('.')],
     license = 'MIT',
     classifiers=[
         "License :: OSI Approved :: MIT License",
