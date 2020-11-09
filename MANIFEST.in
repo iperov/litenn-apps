@@ -1,0 +1,2 @@
+recursive-include litenn_apps *.py
+recursive-include litenn_apps *.jpg
